@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3399ff"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/main_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="55dp"
+            android:textStyle="bold"
+            android:text="@string/main_title"/>
+    </LinearLayout>
+
+    <TextView
+        android:text="@string/descriptions_note"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:padding="24dp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <Button
+            android:background="#45ad43"
+            android:text="@string/button_training"
+            android:textColor="#ffffff"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_training"
+            android:onClick="onClickButton"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+        <Button
+            android:background="#45ad43"
+            android:text="@string/button_history"
+            android:textColor="#ffffff"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_history"
+            android:onClick="onClickButton"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:background="#45ad43"
+            android:text="@string/button_setting"
+            android:textColor="#ffffff"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_setting"
+            android:onClick="onClickButton"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:background="#45ad43"
+            android:text="@string/button_about"
+            android:textColor="#ffffff"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_about"
+            android:onClick="onClickButton"/>
+    </LinearLayout>
+</LinearLayout>

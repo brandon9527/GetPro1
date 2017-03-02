@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:orientation="vertical"
+    android:background="#3399ff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <Button
+            android:id="@+id/back_button"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:drawableLeft="@drawable/arrow_left"
+            android:drawablePadding="4dp"
+            android:onClick="onClickButton"/>
+
+
+        <TextView
+            android:id="@+id/category_training"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:text="@string/category_history"
+            android:textColor="#ffffff"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/descriptions_training"
+        android:text="@string/descriptions_history"
+        android:textColor="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center">
+
+        <Button
+            android:background="#45ad43"
+            android:id="@+id/historyclear_button"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:text="@string/clearshottraining_button"
+            android:textColor="#ffffff"
+            android:onClick="History"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center">
+
+        <Button
+            android:background="#45ad43"
+            android:id="@+id/historydrop_button"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:text="@string/dropshottraining_button"
+            android:textColor="#ffffff"
+            android:onClick="History2"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center">
+
+        <Button
+            android:background="#45ad43"
+            android:id="@+id/historynet_button"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:text="@string/nettraining_button"
+            android:textColor="#ffffff"
+            android:onClick="History3"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center">
+
+        <Button
+            android:background="#45ad43"
+            android:id="@+id/historysmash_button"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:text="@string/smashtraining_button"
+            android:textColor="#ffffff"
+            android:onClick="History4"/>
+    </LinearLayout>
+
+</LinearLayout>
